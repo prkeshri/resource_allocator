@@ -1,0 +1,19 @@
+{
+  "name": "resource_allocator",
+  "version": "1.0.0",
+  "description": "The Resource Allocator is responsible for assigning servers for users based on their needs.",
+  "main": "resource_allocator.js",
+  "scripts": {
+    "test": "mocha test_resource_allocator.js"
+  },
+  "author": "Praveen Ranjan Keshri",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-google": "^0.13.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
